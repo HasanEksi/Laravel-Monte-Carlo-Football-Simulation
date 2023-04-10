@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-underline {
+    background-image: url('/icons/underline.svg');
+}
+
+.growing-underline {
+    padding-bottom: 5px;
+    background-size: 100% 0.2rem;
+    background-repeat: no-repeat;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+
+.growing-underline:hover {
+
+    background-image: url('/icons/underline.svg');
+    background-size: 100% 0.2rem;
+    background-repeat: no-repeat;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+
+}
